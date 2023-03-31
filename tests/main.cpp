@@ -1,5 +1,4 @@
 #include <iostream>
-#include "../src/map.h"
 #include "../src/astar.h"
 
 int main() {
