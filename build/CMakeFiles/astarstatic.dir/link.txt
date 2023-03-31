@@ -1,0 +1,2 @@
+/usr/bin/ar qc libastar.a CMakeFiles/astarstatic.dir/src/astar.cpp.o CMakeFiles/astarstatic.dir/src/node.cpp.o CMakeFiles/astarstatic.dir/src/map.cpp.o
+/usr/bin/ranlib libastar.a

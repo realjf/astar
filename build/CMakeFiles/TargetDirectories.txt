@@ -1,0 +1,4 @@
+/home/realjf/cpp_projects/astar/build/CMakeFiles/astar.dir
+/home/realjf/cpp_projects/astar/build/CMakeFiles/astarstatic.dir
+/home/realjf/cpp_projects/astar/build/CMakeFiles/edit_cache.dir
+/home/realjf/cpp_projects/astar/build/CMakeFiles/rebuild_cache.dir
