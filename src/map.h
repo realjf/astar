@@ -23,12 +23,17 @@ public:
 
     void fillNeighbors();
 
+    void printPath(std::vector<Node *> path);
+
+    void setDiagonalWalkable(bool diagWalkable);
+
 public:
     std::vector<std::vector<Node *>> m_MapData; // 地图数据节点
     Node *startNode;                            // 起点
     Node *endNode;
-    int m_Width;  // 宽度
-    int m_Height; // 高度
+    int m_Width;             // 宽度
+    int m_Height;            // 高度
+    bool m_DiagonalWalkable; // 斜方向行走
 };
 
 #endif /* _MAP_H_ */

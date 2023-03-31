@@ -11,6 +11,7 @@ int main() {
     Node *endNode = map.getNode(8, 8);
     map.setStartNode(startNode);
     map.setEndNode(endNode);
+    map.setDiagonalWalkable(true);
 
     // 添加障碍物
     map.getNode(2, 2)->setWalkable(false);
@@ -29,11 +30,13 @@ int main() {
 
     map.printMap();
 
+    std::cout << std::endl;
     // 输出结果vc
     if (path.size() > 0) {
         for (Node *node : path) {
             std::cout << "(" << node->x << "," << node->y << ") ";
         }
+        map.printPath(path);
         std::cout << std::endl;
     } else {
         std::cout << "未找到路径！" << std::endl;
