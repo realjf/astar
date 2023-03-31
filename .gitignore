@@ -32,3 +32,7 @@
 *.app
 
 .history
+/bin
+/bin_test
+/build
+/build_test
